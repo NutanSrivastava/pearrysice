@@ -73,7 +73,7 @@
     .search-here img{width: 18px;height: 18px;float: left;}
     .header-menu li{float: left;margin-right: 30px;padding: 28px 0;}
     .header-menu li:last-child{margin-right: 0;}
-    .header-menu li a{float: left;width: 100%;font-size: 16px;line-height: 23px;color: #000;font-weight: 800; font-family: 'Merienda One'; }
+    .header-menu li a{float: left;width: 100%;font-size: 16px;line-height: 23px;color: #f9c606;font-weight: 800; font-family: 'Merienda One'; }
     .header-menu li a:hover{color: #fdc632;}
     .navbar-toggle .icon-bar{background-color: #fdc632;}
     .navbar-toggle,.navbar-nav{margin: 0 !important;}
@@ -118,15 +118,17 @@
 
 
 /*BANNER CSS STARTS HERE*/
-    .main{ position: relative; background: url("../images/header.webp") ; background-position: top;padding: 160px 0 110px; }
+    .main{ position: relative; /*background: url("../images/header.webp") ;*/ background-position: top;/*padding: 160px 0 110px;*/ }
+    video#myVideo {    width: 100%; }
+    .content-banner {    top: 35% !important;    position: absolute;}
     .main h2{font-family: 'Merienda One', cursive; margin: 0; padding-bottom: 30px; font-size: 55px; line-height: 1.2em; font-weight: 900; letter-spacing: 1px;  color: #fff; font-weight: bold;}
     .main h3{font-family: 'Merienda One', cursive; margin: 0; font-size: 70px; line-height: 1.2em; font-weight: 900; letter-spacing: 1px;  color: #BA671A;  font-weight: bold;}
     .main h3 span{color: #e8481c}
     .h3-ban{color: #6f1f0a !important; padding-bottom: 30px;}
     .main img{height: 50px;}
-    .button-click {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #e31e24;    background-color: #e31e24;    font-size: 20px;    font-family: 'Signika Negative', sans-serif;cursor: pointer;    margin: 10px;    color: #fff; }
-    .button-click:hover {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #fff;    background-color: #fff;    font-size: 20px;    font-family: 'Signika Negative', sans-serif;cursor: pointer;    margin: 10px;    color: #e31e24;}
-    
+    .button-click {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #e31e24;    background-color: #e31e24;    font-size: 20px;    font-family: 'Merienda One' ;cursor: pointer;    margin: 10px;    color: #fff; }
+    .button-click:hover {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #fff;    background-color: #fff;    font-size: 20px;    font-family: 'Merienda One' ;cursor: pointer;    margin: 10px;    color: #e31e24;}
+
 /*BANNER CSS STARTS HERE*/
 
 
@@ -144,14 +146,15 @@
     .footer-bottom{  font-family: 'Merienda One';   background: #f2b218; padding: 20px 0;text-align: center;}
     .copyright{font-size: 18px;color:#fff;}
     .form-group.footer-form img {height: 35px;    padding-right: 6px;}
-    .footercol1 {background: url("../images/shape.png");background-size: cover;min-height: 30em;padding: 55px;}
+    .footercol1 {background: url("../images/shape.png");background-size: cover;min-height: 30em;padding: 33px;}
     .footer-nav .logo{text-align: -webkit-center;}
     i.footer-i {    line-height: 45px;    text-align: center;    width: 50px;    font-size: 23px;    height: 50px;    background: url("../images/shape1.png");display: inline-block;color: #b02b2b;}
+    .full-width.footer-nav {    padding-bottom: 30px;}
 /*FOOTER CSS END*/
 
 /*ICE-CREAM SECTION START*/
     .col-md-4.col-sm-4.col-xs-12.text-center.iceimg1 {padding: 32px;}
-    .ice-cream-block h3{ font-family: 'Satisfy', cursive;   font-size: 60px;     padding-bottom: 30px;     color: #e31e24;}
+    .ice-cream-block h3{ font-family: 'Fredericka the Great';   font-size: 67px; font-weight: normal;    padding-bottom: 30px;     color: #e31e24;}
     .ice-cream-block h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
     .ice-cream {position: relative; /*background: red;*/min-height: 326px;border-radius: 50%;border:10px solid #ffdea6;    }
     .middle {  transition: .5s ease;opacity: 0;  position: absolute;top: 50%;  left: 50%;  transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);text-align: center;}
@@ -177,28 +180,27 @@
     .ice-block-1{overflow: hidden; position: relative;}
     .ice-block-1 img{transition: transform .4s; -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
     .ice-block-1 img:hover{ transform: scale(1.3);transform-origin: 50% 50%;}
-
-/*ICE CREAM SECTION TWO END*/
-
-/*ICE CREAM SECTION THREE START*/
-    .ice-text-mid {  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;  font-size: 35px;    font-family: 'Merienda One';color: #e31e24;}
-    .row.row-second-scoop {padding-top: 28px;}
-    .ice-block-3 h3 span {padding-left: 35px; color: #e31e24; font-family: 'Merienda One';}
-    .iceblock{position: relative;}
-    .imageice {  opacity: 1;  display: block;  width: 100%;  height: auto;  transition: .5s ease;  backface-visibility: hidden;}
-    .icemid { transition: .5s ease;opacity: 0;  position: absolute;top: 50%;  left: 50%;  transform: translate(-50%, -50%);  -ms-transform: translate(-50%, -50%);text-align: center;}
-    .iceblock:hover .imageice {opacity: 0.5;}
-    .iceblock:hover .icemid {opacity: 1;}
-    .ice-text-mid a {    font-size: 32px;    font-family: 'Merienda One';    color: #e31e24;}
-    .ice-block-3{padding: 70px 0; background: #f9c606;}
     .exp-now {    transition: 0.8s;    padding: 6px 8px;    border: 1px solid #e31e24;    background-color: #e31e24;font-size: 20px;    font-family: 'Signika Negative', sans-serif;cursor: pointer;    margin: 10px;    color: #fff;    }
     .exp-now:hover {    transition: 0.8s;    padding: 6px 8px;    border: 1px solid #e31e24;    background-color: #fff;    font-size: 20px;    font-family: 'Signika Negative', sans-serif;cursor: pointer;    margin: 10px;    color: #e31e24;   }
-    .ice-block-3 h2 {color:#e31e24;font-family: 'Merienda One'; font-size: 55px;     padding-bottom: 30px;}
-    .ice-block-3 h4 {color: #e31e24;font-family: 'Merienda One'; font-size: 35px;     line-height: 70px;}
-    .ice-block-3 img{height: 34em; -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
-    .ice-block-3 img:hover{transform: scale(1.05); }
+    
+/*ICE CREAM SECTION TWO END*/
 
-/*ICE CREAM SECTION THREE END*/
+/*ALL SCCOP START*/
+    .iceboxrow0 h3 {    font-size: 50px;    font-family: 'Satisfy';    line-height: 52px;}
+    .iceboxrow0 h2 {    font-size: 74px;    font-family: 'Fredericka the Great';    font-weight: normal;    line-height: 68px;}
+    .iceboxrow0{padding: 40px 0;}
+    .all-scoop{background: url("../images/hd-11.jpg"); background-size: cover; padding: 100px 0;}
+    .ice-text {  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;  font-size: 20px;    font-family: 'Merienda One';color: #e31e24;}
+    .icebox{position: relative;}
+    .imageice {     background: antiquewhite; opacity: 1;  display: block;  width: 100%;  height: auto;  transition: .5s ease;  backface-visibility: hidden;}
+    .iceboxmid { transition: .5s ease;opacity: 0;  position: absolute;top: 50%;  left: 50%;  transform: translate(-50%, -50%);  -ms-transform: translate(-50%, -50%);text-align: center;}
+    .icebox:hover .imageice {opacity: 0.5;}
+    .icebox:hover .iceboxmid {opacity: 1;}
+    .ice-text a {    font-size: 14px;    font-family: 'Merienda One';    color: #e31e24;}
+    .ice-text {  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;  font-size: 20px;    font-family: 'Merienda One';color: #e31e24;}
+    .iceboxrow1{padding-left:40px; padding-bottom: 30px;}
+    .iceboxlast{    background: bisque;}
+/*All Scoop End*/
 
 /*SLIDER START HERE*/
     img.matka {height: 20.2em !important;}
@@ -211,14 +213,17 @@
 /*SLIDER ENDS HERE*/
 
 /*FRANCHISEES STARTS*/
+    .franchise-section{padding: 60px 0; background:url("../images/back.jpg");} 
+    .franchise-section h3{font-size: 35px;    font-family: 'Fredericka the Great';font-weight: 600;padding: 11px 0;padding-left: 15px;}
+    .contact-box-inner1 {  background:#fff;  border: 1px solid #e31e24;min-height: 300px;}
+    .contact-box-inner1 h2 {    padding-top: 70px;}
+    .contact-box1 { background:#fff !important; box-shadow: 0 0 10px #e31e24, 0 0 10px #e31e24, 0 0 5px #e31e24;  background: rgba(255,255,255,0.75);padding: 25px;}
+    .contact-box-inner1 h2 {  font-size: 26px;padding: 21px;    font-family: 'Merienda One';    color: #FF9800;}
+    .fran-heading{font-weight: normal; padding-left: 15px;   font-family: 'Fredericka the Great';font-size: 61px;    padding-top: 55px;padding-bottom: 10px;}
     .mob-fran-section{display: none;}
-    .bg-franchise-img {background: url(../images/prod/ice3.png);height: 41em;}
-    section.full-width.franchise-section {background: url(../images/c.png);background-position: bottom;background-size: cover;}
-    .fran-text-div p {font-size: 16px;font-family: 'Merienda One';padding-top: 1px;color: darkslategray;}
-    .h2-fran {font-size: 66px;line-height: 70px;padding-top: 33px;}
-    .fran-text-div {padding-top: 10em;padding-left: 9em;}
-    .fran-logo-div {padding-top: 19rem;padding-left: 5.3em;}p.fran-p {font-size: 17px;font-weight: 800;color: black;padding-bottom: 3px;}
-    .fran-logo-div img {height: 110px;transform: skewY(-9deg);}
+    .contact-box-inner1 p {font-size: 20px;    color: #4e4e54;    padding: 1px;    font-family: 'Merienda One';    padding-left: 21px;}
+    .contact-box-inner1 p i {    padding-right: 15px;}
+    
 /*FRANCHISEES ENDS*/
 
 
@@ -230,15 +235,15 @@
 /*CONTACT US PAGE START HERE*/
 
     /*Contact Banner Starts Here*/
-        .contact-main{ background: url("../images/prod/parallax-3.jpg") ; padding: 220px 0 140px; background-size: cover; }
+        /*.contact-main{ background: url("../images/prod/parallax-3.jpg") ; padding: 220px 0 140px; background-size: cover; }*/
         .contact-main h2{ padding-bottom: 3px; font-size: 59px; line-height: 1.2em; font-weight: 900; letter-spacing: 1px;  color: #fff; font-weight: bold;}
-        .contact-main h3{font-family: 'Merienda One', cursive; margin: 0; font-size: 50px; line-height: 1.2em; font-weight: 900; letter-spacing: 1px;  color: #BA671A;  font-weight: bold;}
+        .contact-main h3{font-family: 'Merienda One', cursive; margin: 0; font-size: 50px; line-height: 30px; font-weight: 900; letter-spacing: 1px;  color: #BA671A;  font-weight: bold;}
         .contact-main h3 span{color: #e31e24;}
         .contact-h3-ban{color: #6f1f0a !important; padding-bottom: 30px;}
         /*.contact-main img{height: 50px;}*/
-        .contact-button-click {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #e31e24;    background-color:#e31e24;font-size: 20px;    font-family: 'Signika Negative', sans-serif;cursor: pointer;      color: #fff;    }
-        .contact-button-click:hover {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #db3490;    background-color: #fff;    font-size: 20px;    font-family: 'Signika Negative', sans-serif;cursor: pointer;     color: #db3490; }
-
+        .contact-button-click {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #e31e24;    background-color:#e31e24;font-size: 20px;    font-family: 'Satisfy', cursive; cursor: pointer;      color: #fff;    }
+        .contact-button-click:hover {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #db3490;    background-color: #fff;    font-size: 20px;    font-family: 'Satisfy', cursive; cursor: pointer;     color: #db3490; }
+        .contact-content-banner{position: absolute; top:70%;}
     /*Contact Banner ends Here*/
 
     /*contact box start*/
@@ -291,29 +296,32 @@
 /*CATEGORY PAGE CSS START*/
     
     /*Category Banner Starts Here*/
-        .category-main{ background: url("../images/prod/close-up-colorful-balls-from-freshly-prepared-homemade-ice-cream_70626-11588.jpg") ; padding: 220px 0 140px; background-size: cover; }
-        .category-main h2{ padding-bottom: 3px; font-size: 59px; line-height: 1.2em; font-weight: 900; letter-spacing: 1px;  color: #fff; font-weight: bold;}
+        /*.category-main{ background: url("../images/prod/close-up-colorful-balls-from-freshly-prepared-homemade-ice-cream_70626-11588.jpg") ; padding: 220px 0 140px; background-size: cover; }*/
+        .category-main{position: relative;}
+        .category-main h2{ padding-bottom: 3px; font-size: 59px; line-height: 1.2em; font-weight: 900; letter-spacing: 1px;  color: #000; font-weight: bold;}
         .category-main h3{font-family: 'Merienda One', cursive; margin: 0; font-size: 50px; line-height: 1.2em; font-weight: 900; letter-spacing: 1px;  color: #BA671A;  font-weight: bold;}
         .category-main h3 span{color: #e31e24;}
         .category-h3-ban{color: #6f1f0a !important; padding-bottom: 30px;}
         /*.contact-main img{height: 50px;}*/
-        .category-button-click {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #e31e24;    background-color:#e31e24;font-size: 20px;    font-family: 'Signika Negative', sans-serif;cursor: pointer;      color: #fff;    }
-        .category-button-click:hover {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #e31e24;    background-color: #fff;    font-size: 20px;    font-family: 'Signika Negative', sans-serif;cursor: pointer;     color:#e31e24   }
-
+        .category-button-click {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #e31e24;    background-color:#e31e24;font-size: 20px;      font-family: 'Merienda One', cursive; cursor: pointer;      color: #fff;    }
+        .category-button-click:hover {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #e31e24;    background-color: #fff;    font-size: 20px;      font-family: 'Merienda One', cursive; cursor: pointer;     color:#e31e24   }
+        .container.cat-banner-content {position: absolute;    top: 50% !important;    margin-left: 54px;}
+        .divider-category{background:url("../images/divide.png"); height: 23px; margin-top: -20px;     position: relative;}
+    
     /*Category Banner Ends Here*/
 
 
 
     /*Category Box Start Here*/
     .ice-h3-cat h3{ font-family: 'Satisfy', cursive;   font-size: 60px;     padding: 50px 0;     color: #e31e24;}
-    .ice-cream-block-cat h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
+    .ice-cream-block-cat h2{text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
     .ice-cream-cat { position: relative; /*background: red;*//*min-height: 350px;border:2px solid #ffdea6;*/    }
     .ice-cream-cat:hover{transform-style: preserve-3d;transform: scale(1.05);transition: all ease 0.5s;}
     .middle-cat {  height: 100%; width: 100%;  padding-top: 8em; background: rgba(227, 30, 36, 0.3); transition: .5s ease;opacity: 0;  position: absolute;top: 50%;  left: 50%;  transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);text-align: center;}
     /*.ice-cream-cat:hover .image-cat { opacity: 0; }*/
     .ice-cream-cat:hover .middle-cat {opacity: 1;}
     .image-cat:hover{background:#fff;}
-    .text-cat {    font-size: 30px;    font-weight: 700;   font-family: 'Satisfy', cursive; color: #fff;}
+    .text-cat {  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;  font-size: 30px;    font-weight: 700;   font-family: 'Satisfy', cursive; color: #000;}
     .middle-cat p {    font-size: 15px;    font-family: 'Satisfy', cursive; line-height: 40px;color: #db3490;}
     .ice-1-cat img {  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
     .ice-2-cat img { -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
@@ -324,7 +332,7 @@
     .divideropp{    background: url(../images/divideopp.png);height: 32px;margin-top: -16px;position: absolute;}
     .exp-now-cat {    transition: 0.8s;    padding: 0px 4px;    border: 1px solid #e31e24;    background-color: #e31e24;font-size: 15px;     font-family: 'Merienda One'; cursor: pointer;    margin: 10px;    color: #fff;  }
     .exp-now-cat:hover {    transition: 0.8s; background-color: #fff;    font-size: 15px;  border:none;      font-family: 'Merienda One'; cursor: pointer;    margin: 10px;    color: #e31e24;  }
-    
+    .ice-cone {    background: cornsilk;}
     /*Category Box Ends Here*/
 
 /*CATEGORY PAGE CSS END*/
@@ -335,17 +343,18 @@
 /*ORDER NOW PAGE STARTS HERE*/
 
 /*BANNER CSS STARTS HERE*/
-    .order-main{ position: relative; background: url("../images/orderbanner.jpg") ; background-position: top;padding: 160px 0 110px; }
-    .order-main h2{font-family: 'Merienda One', cursive; margin: 0; padding-bottom: 30px; font-size: 55px; line-height: 1.2em; font-weight: 900; letter-spacing: 1px;  color: #fff; font-weight: bold;}
+    /*.order-main{ position: relative; background: url("../images/orderbanner.jpg") ; background-position: top;padding: 160px 0 110px; }*/
+    .order-main h2{font-family: 'Merienda One', cursive; margin: 0; padding-bottom: 30px; font-size: 44px; line-height: 1.2em; font-weight: 900; letter-spacing: 1px;  color: #e31e24; font-weight: bold;}
     .order-main h3{font-family: 'Merienda One', cursive; margin: 0; font-size: 70px; line-height: 1.2em; font-weight: 900; letter-spacing: 1px;  color: #BA671A;  font-weight: bold;}
     .order-main h3 span{color: #e8481c}
-    .h3-ban{color: #6f1f0a !important; padding-bottom: 30px;}
+    .h3-ban{color: #6f1f0a !important; padding-bottom: 30px; }
     .order-main img{height: 50px;}
-
+    .order-content-banner{position: absolute; top: 60%; left: 65%;}
 /*BANNER CSS STARTS HERE*/
 
 
 /*form start*/
+
   /*form section start*/
     .order-col {    box-shadow: 0px 0px 4px 1px rgba(133,124,133,1);min-height: 41em;}
     .order-section{padding: 100px 0;}
@@ -357,6 +366,8 @@
     .order-button{    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #e31e24;    background-color: #e31e24;font-size: 20px;    font-family: 'Signika Negative', sans-serif;cursor: pointer;     color: #fff;    }
     .order-button:hover {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #db3490;    background-color: #fff;    font-size: 20px;    font-family: 'Signika Negative', sans-serif;cursor: pointer;       color: #e31e24;  }
     .order-col h2{padding: 40px; color: #e31e24;}
+    section.order-section h3 {    font-family: 'Fredericka the Great';    font-weight: normal; font-size: 53px;    line-height: 42px;}
+    .order-section .head-row{padding-bottom: 30px;}
     /*form section end*/
 /*form end*/
 
@@ -378,9 +389,9 @@
 
 /*STRAWBERRY PAGE START*/
             img.image-product.img-berry {height: 10em;}
-            .ice-h3-strawberry h3{line-height: 80px; font-family: 'Satisfy', cursive;   font-size: 60px;     padding: 50px 0;     color: #e31e24;}
+            .ice-h3-strawberry h3{line-height: 70px; font-family: 'Satisfy', cursive;   font-size: 45px;     padding: 50px 0;     color: #e31e24;}
             .ice-h3-strawberry p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
-            .ice-cream-block-strawberry  h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
+            .ice-cream-block-strawberry  h2{text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; font-family: 'Signika Negative', sans-serif;   font-size: 40px;     padding-bottom: 30px;     color: #000;} 
             .ice-cream-strawberry :hover{transform-style: preserve-3d;transform: scale(1.15);transition: all ease 0.5s;}
             .ice-cream-strawberry img{height: 22em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
             .image-product.img-product-strawberry {height: 10em;margin-top: 114px;}
@@ -389,91 +400,60 @@
 /*STRAWBERRY PAGE ENDS*/
 
 /*CHOCHOLATE PAGE START*/
-            .ice-h3-chocholate h3{line-height: 80px; font-family: 'Satisfy', cursive;   font-size: 60px;     padding: 50px 0;     color: #e31e24;}
+            .chocho1{margin-top: 5em;}
+            .ice-3-product .chocho{height: 10em ;}
+            .ice-2-product .chocho{height: 10em !important}
+            .ice-h3-chocholate h3{line-height: 70px; font-family: 'Satisfy', cursive;   font-size: 50px;     padding: 50px 0;     color: #e31e24;}
             .ice-h3-chocholate p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
-            .ice-cream-block-chocholate  h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
+            .ice-cream-block-chocholate  h2{ text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; font-family: 'Signika Negative', sans-serif;  font-size: 28px;     padding-bottom: 30px;     color: #000;} 
             .ice-cream-chocholate :hover{transform-style: preserve-3d;transform: scale(1.15);transition: all ease 0.5s;}
-            .ice-cream-chocholate img{height: 22em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
+            .ice-cream-chocholate img{height: 19em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
            .ice-cream-block-chocholate  {padding: 70px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
             .ice-desc-chocholate {padding: 20px 0;}
 /*CHOCHOLATE PAGE END*/
 
 /*VANILLA PAGE START*/
-            .ice-h3-vanilla h3{line-height: 80px; font-family: 'Satisfy', cursive;   font-size: 60px;     padding: 50px 0;     color: #e31e24;}
+            .ice-h3-vanilla h3{line-height: 70px; font-family: 'Satisfy', cursive;   font-size: 50px;     padding: 50px 0;     color: #e31e24;}
             .ice-h3-vanilla p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
-            .ice-cream-block-vanilla  h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
+            .ice-cream-block-vanilla  h2{text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; font-family: 'Signika Negative', sans-serif;   font-size: 30px;     padding-bottom: 30px;     color: #000;} 
             .ice-cream-vanilla :hover{transform-style: preserve-3d;transform: scale(1.15);transition: all ease 0.5s;}
             .ice-cream-vanilla img{height: 22em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
            .ice-cream-block-vanilla  {padding: 70px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
             .ice-desc-vanilla {padding: 20px 0;}
+            .img-brick-vanilla{height: 10em !important}
+            .vanilla-box{height: 10em !important}
 /*VANILLA PAGE END*/
 
 /*MANGO VANILLA PAGE START*/
-            .ice-h3-mangovanilla h3{line-height: 80px; font-family: 'Satisfy', cursive;   font-size: 60px;     padding: 50px 0;     color: #e31e24;}
+            .ice-h3-mangovanilla h3{line-height: 70px; font-family: 'Satisfy', cursive;   font-size: 50px;     padding: 50px 0;     color: #e31e24;}
             .ice-h3-mangovanilla p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
-            .ice-cream-block-mangovanilla  h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
+            .ice-cream-block-mangovanilla  h2{text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; font-family: 'Signika Negative', sans-serif;  font-size: 30px;     padding-bottom: 30px;     color: #000;} 
             .ice-cream-mangovanilla :hover{transform-style: preserve-3d;transform: scale(1.15);transition: all ease 0.5s;}
             .ice-cream-mangovanilla img{height: 22em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
            .ice-cream-block-mangovanilla  {padding: 70px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
             .ice-desc-mangovanilla {padding: 20px 0;}
 /*MANGO VANILLA PAGE END*/
 
-/*KESAR VANILLA PAGE START*/
-            .ice-h3-kesarvanilla h3{line-height: 80px; font-family: 'Satisfy', cursive;   font-size: 60px;     padding: 50px 0;     color: #e31e24;}
-            .ice-h3-kesarvanilla p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
-            .ice-cream-block-kesarvanilla  h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
-            .ice-cream-kesarvanilla :hover{transform-style: preserve-3d;transform: scale(1.15);transition: all ease 0.5s;}
-            .ice-cream-kesarvanilla img{height: 22em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
-           .ice-cream-block-kesarvanilla  {padding: 70px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
-            .ice-desc-kesarvanilla {padding: 20px 0;}
-/*KESAR VANILLA PAGE END*/
 
-/*STRAWBERRY VANILLA PAGE START*/
-            img.image-product.stvanillaimg {height: 15em;     margin-bottom: 3em;}
-            .ice-h3-strawberryvanilla h3{line-height: 80px; font-family: 'Satisfy', cursive;   font-size: 60px;     padding: 50px 0;     color: #e31e24;}
-            .ice-h3-strawberryvanilla p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
-            .ice-cream-block-strawberryvanilla  h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
-            .ice-cream-strawberryvanilla :hover{transform-style: preserve-3d;transform: scale(1.15);transition: all ease 0.5s;}
-            .ice-cream-strawberryvanilla img{height: 22em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
-           .ice-cream-block-strawberryvanilla  {padding: 70px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
-            .ice-desc-strawberryvanilla {padding: 20px 0;}
-/*STRAWBERRY VANILLA PAGE END*/
+
 
 /*BUTTER PAGE START*/
-            .ice-h3-butter h3{line-height: 80px; font-family: 'Satisfy', cursive;   font-size: 60px;     padding: 50px 0;     color: #e31e24;}
+            .ice-h3-butter h3{line-height: 70px; font-family: 'Satisfy', cursive;   font-size: 50px;     padding: 50px 0;     color: #e31e24;}
             .ice-h3-butter p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
-            .ice-cream-block-butter  h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
+            .ice-cream-block-butter  h2{ text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; font-family: 'Signika Negative', sans-serif;   font-size: 30px;     padding-bottom: 30px;     color: #000;} 
             .ice-cream-butter :hover{transform-style: preserve-3d;transform: scale(1.15);transition: all ease 0.5s;}
-            .ice-cream-butter img{height: 22em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
+            .ice-cream-butter img{height: 19em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
            .ice-cream-block-butter  {padding: 70px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
             .ice-desc-butter {padding: 20px 0;}
-            img.image-product.butterimg {height: 10em;margin-top: 8em;}
+            img.image-product.butterimg {height: 10em;margin-top: 5em;}
 /*BUTTER PAGE END*/
 
-/*KULFI PAGE START*/
-            .ice-h3-kulfi h3{line-height: 80px; font-family: 'Satisfy', cursive;   font-size: 60px;     padding: 50px 0;     color: #e31e24;}
-            .ice-h3-kulfi p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
-            .ice-cream-block-kulfi  h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
-            .ice-cream-kulfi :hover{transform-style: preserve-3d;transform: scale(1.15);transition: all ease 0.5s;}
-            .ice-cream-kulfi img{height: 22em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
-           .ice-cream-block-kulfi  {padding: 70px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
-            .ice-desc-kulfi {padding: 20px 0;}
-/*KULFI PAGE END*/
 
-/*TUTTIFRUITY PAGE START*/
-            .ice-h3-tuttifruity h3{line-height: 80px; font-family: 'Satisfy', cursive;   font-size: 60px;     padding: 50px 0;     color: #e31e24;}
-            .ice-h3-tuttifruity p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
-            .ice-cream-block-tuttifruity  h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
-            .ice-cream-tuttifruity :hover{transform-style: preserve-3d;transform: scale(1.15);transition: all ease 0.5s;}
-            .ice-cream-tuttifruity img{height: 22em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
-           .ice-cream-block-tuttifruity  {padding: 70px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
-            .ice-desc-tuttifruity {padding: 20px 0;}
-/*TUTTIFRUITY PAGE END*/
 
 /*CANDY PAGE START*/
-            .ice-h3-candy h3{line-height: 80px; font-family: 'Satisfy', cursive;   font-size: 60px;     padding: 50px 0;     color: #e31e24;}
+            .ice-h3-candy h3{line-height: 70px; font-family: 'Satisfy', cursive;   font-size: 50px;     padding: 50px 0;     color: #e31e24;}
             .ice-h3-candy p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
-            .ice-cream-block-candy  h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
+            .ice-cream-block-candy  h2{ text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; font-family: 'Signika Negative', sans-serif;   font-size: 30px;     padding-bottom: 30px;     color: #000;} 
             .ice-cream-candy :hover{transform-style: preserve-3d;transform: scale(1.15);transition: all ease 0.5s;}
             .ice-cream-candy img{height: 22em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
            .ice-cream-block-candy  {padding: 70px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
@@ -492,20 +472,24 @@
 /*CANDY PAGE END*/
 
 /*MAVA PAGE START*/
-            .ice-h3-mava h3{line-height: 80px; font-family: 'Satisfy', cursive;   font-size: 60px;     padding: 50px 0;     color: #e31e24;}
+            .ice-h3-mava h3{line-height: 70px; font-family: 'Satisfy', cursive;   font-size: 50px;     padding: 50px 0;     color: #e31e24;}
             .ice-h3-mava p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
-            .ice-cream-block-mava  h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
+            .ice-cream-block-mava  h2{text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; font-family: 'Signika Negative', sans-serif;  font-size: 30px;     padding-bottom: 30px;     color: #000;} 
             .ice-cream-mava :hover{transform-style: preserve-3d;transform: scale(1.15);transition: all ease 0.5s;}
-            .ice-cream-mava img{height: 22em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
+            .ice-cream-mava img{height: 19em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
            .ice-cream-block-mava  {padding: 70px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
             .ice-desc-mava {padding: 20px 0;}
+            .matka{margin-top: 1em}
+            .mava-malai{height: 15em !important}
+            .malaimasti{height: 10em!important; margin-top: 8.8em!important}
+            .gulkand{margin-top: 4em !important}
 /*MAVA PAGE END*/
  
 /*DRY FRUITS STARTS*/
-            .ice-h3-product  h3{ font-family: 'Satisfy', cursive;   font-size: 60px;     padding: 50px 0;     color: #e31e24;}
-            .ice-cream-block-product  h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
+            .ice-h3-product  h3{line-height: 70px; font-family: 'Satisfy', cursive;   font-size: 50px;     padding: 50px 0;     color: #e31e24;}
+            .ice-cream-block-product  h2{ text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; font-family: 'Signika Negative', sans-serif;  font-size: 30px;     padding-bottom: 30px;     color: #000;} 
             .ice-cream-product :hover{transform-style: preserve-3d;transform: scale(1.15);transition: all ease 0.5s;}
-            .ice-cream-product img{height: 22em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
+            .ice-cream-product img{height: 18em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
             .image-product.img-product-block {height: 10em;margin-top: 114px;}
             .ice-cream-block-product  {padding: 70px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
             .ice-desc-product {padding: 20px 0;}
@@ -519,11 +503,11 @@
 /*CONES END*/
 
 /*JEE CONE PAGE START*/
-            .ice-h3-jeecone h3{line-height: 80px; font-family: 'Satisfy', cursive;   font-size: 60px;     padding: 50px 0;     color: #e31e24;}
+            .ice-h3-jeecone h3{line-height: 70px; font-family: 'Satisfy', cursive;   font-size: 50px;     padding: 50px 0;     color: #e31e24;}
             .ice-h3-jeecone p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
             .ice-cream-block-jeecone  h2{ font-family: 'Satisfy', cursive;   font-size: 40px;     padding-bottom: 30px;     color: #e31e24;} 
             .ice-cream-jeecone :hover{transform-style: preserve-3d;transform: scale(1.15);transition: all ease 0.5s;}
-            .ice-cream-jeecone img{height: 22em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
+            .ice-cream-jeecone img{height: 18em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
            .ice-cream-block-jeecone  {padding: 70px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
             .ice-desc-jeecone {padding: 20px 0;}
 /*JEE CONE PAGE END*/
@@ -538,7 +522,4 @@
 
 
     
-
-
-
 
