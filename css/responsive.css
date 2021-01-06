@@ -185,7 +185,7 @@
         section.ice-cream-block {padding: 23px 0;    background: url(../images/offer_bg.webp);}
         .ice-cream-block h3 {font-size: 40px;    line-height: 36px;}
         .col-md-4.col-sm-4.col-xs-12.text-center.iceimg1 {padding: 20px;}
-        .exp-now {    padding: 0px 11px;    font-size: 15px;}
+        .exp-now {    padding: 8px 11px;    font-size: 15px;}
         .exp-now:hover{    padding: 0px 11px;    font-size: 15px;}
         .middle {opacity: 1;}
         .text {    font-size: 24px;} 
