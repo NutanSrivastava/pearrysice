@@ -16,7 +16,8 @@
     .exp-now {padding: 0px 8px;font-size: 9px;}
     .exp-now:hover{padding: px 8px;font-size: 9px;}
     .icemid {opacity: 1;}
-    .container.cat-banner-content { margin-left: 0px}
+    .container.cat-banner-content { margin-left: 0px; top:41% !important;}
+    .map-section iframe {width: 100%;}
 
 
     /*banner start*/
@@ -65,6 +66,15 @@
     .text-cat {font-size: 21px; display: none;}
     .ice-cream-jeecone img {    height: 14em;}
     .pppp span{font-size: 14px;}
+    .video_box2 {
+    right: 0px;
+    min-width: 100%;
+    width: auto;
+    height: 31em !important;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
 }
 
 @media only screen and (max-width: 767px){
@@ -88,7 +98,8 @@
     .copyright {    font-size: 10px;}
     a.contact span {padding-left: 112px;}
     a.pppp span {padding-left: 52px; font-size: 14px;}
-    a.ppp p {padding-left: 54px; font-size: 15px;}
+    a.ppp p {padding-left: 54px;     font-size: 15px !important;}
+    .map-section iframe {width: 100%;}
     /*footer end*/
 
     /*Contact Page Start*/
@@ -160,7 +171,7 @@
         .header-menu li{float: left;width: 100%;padding: 0;}
         .logo img {    width: 100%;    height: 71px;    padding-top: 6px;}
         /*banner start*/
-        .video_box {    padding-top: 6em;}
+        .video_box {padding-top: 6em;    height: 23em !important;}
         .main h2 {    font-family: 'Merienda One', cursive;margin: 0;    padding-bottom: 6px;    font-size: 20px;    line-height: 1.2em;    font-weight: 900;    letter-spacing: 1px;    color: #fff;    font-weight: bold;    padding-top: 15px;}
         .main h3 {    font-family: 'Merienda One', cursive;margin: 0;    font-size: 18px;    line-height: 1.2em;    font-weight: 900;    letter-spacing: 1px;    color: #BA671A;    font-weight: bold;}
         .button-click {    transition: 0.8s;    padding: 10px 5px;    border: 1px solid #e31e24;    background-color: #e31e24;    font-size: 12px;    font-family: 'Merienda One';cursor: pointer;/* margin: 10px; */color: #fff;margin-top: 0px;}
