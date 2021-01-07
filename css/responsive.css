@@ -63,18 +63,11 @@
     .subs-col h4 {font-size: 23px;}
     .ice-h3-strawberry h3 {    line-height: 50px;}
     .middle-cat {background: none;   top: -1%; opacity: 1;}
-    .text-cat {    font-size: 40px;}
+    .text-cat {    font-size: 20px; display: none;}
     .ice-cream-jeecone img {    height: 14em;}
     .pppp span{font-size: 14px;}
-    .video_box2 {
-    right: 0px;
-    min-width: 100%;
-    width: auto;
-    height: 31em !important;
-    z-index: -100;
-    background-size: cover;
-    overflow: hidden;
-}
+    .video_box2 {right: 0px;min-width: 100%;width: auto;height: 31em !important;z-index: -100;background-size: cover;overflow: hidden;}
+    .deal-image-sec img {height: 23em;    padding-left: 6em;}
 }
 
 @media only screen and (max-width: 767px){
@@ -100,12 +93,14 @@
     a.pppp span {padding-left: 52px; font-size: 14px;}
     a.ppp p {padding-left: 54px;     font-size: 15px !important;}
     .map-section iframe {width: 100%;}
+    .form-group.footer-form img {height: 40px;}
+    .form-group.footer-form img {padding-right: 2px;}
     /*footer end*/
 
     /*Contact Page Start*/
-    .contact-content-banner {top: 32%;}
+    .contact-content-banner {top: 49%;}
     .contact-h3-ban {    color: #6f1f0a !important;    padding-bottom: 3px;}
-    .contact-main {padding: 84px 0 0px;background-size: cover;background-position: center;}
+    .contact-main {padding: 53px 0 107px;    background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1610035478/Pearry/parallax-3_cnc7gh.jpg);background-size: cover;}
     .contact-main h2{font-size: 30px; font-family: 'Merienda One'; line-height: 5px;}
     .contact-main h3{font-size: 22px;font-family: 'Merienda One';}
     .contact-button-click {padding: 11px 6px;font-size: 16px;}
@@ -132,13 +127,13 @@
 
 
     /*Order Now Start*/
-    .order-main {background-position: top;padding: 84px 0 0px;}
+    .order-main {    padding: 84px 0 20px;    background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1610035459/Pearry/orderbanner_bai0w0.jpg);background-size: cover;    background-position: top;}
     .order-main img {height: 37px;    float: right;}
     .order-main h2 {    padding-bottom: 20px;font-size: 17px;margin-top: -73px;}
     .order-main h3 {    font-size: 25px; padding: 0; margin-top: -102px}
-    .order-content-banner {top: 47%;  left: 0%; }
+    .order-content-banner {top: 56%;  left: 0%; }
     section.order-section h3 {font-size: 32px;}
-    .image-container {    padding-bottom: 38px; padding-top: 94px;}
+    .image-container {    padding-bottom: 38px; padding-top: 0px;}
     .order-col{box-shadow: none;}
     .form-control-order {padding: 19px;    margin-bottom: 9px;}
     .text_area-order {    height: 5.9em !important; margin-bottom: 26px;}
@@ -156,7 +151,7 @@
     .category-main h3 {font-size: 20px;     font-family: 'Satisfy';     padding: 0 0 0px 0px;margin-bottom: 6px;}
     .category-button-click {    padding: 7px 4px;font-size: 13px; font-family: 'Merienda One';}
     .category-button-click:hover{    padding: 7px 4px;font-size: 13px; font-family: 'Merienda One';}
-    .container.cat-banner-content { margin-left: 7px;}
+    .container.cat-banner-content {padding-top: 85px; margin-left: 7px;}
     .ice-h3-cat h3 {font-size: 35px;padding: 40px 0 0 0;line-height: 54px;}
     .ice-h3-cat p {font-size: 23px;line-height: 42px;}
     .divideropp {height: 31px;margin-top: -17px;}
@@ -174,18 +169,20 @@
         .header-menu li{float: left;width: 100%;padding: 0;}
         .logo img {    width: 100%;    height: 71px;    padding-top: 6px;}
         /*banner start*/
-        .video_box {padding-top: 6em;    height: 23em !important;}
-        .main h2 {    font-family: 'Merienda One', cursive;margin: 0;    padding-bottom: 6px;    font-size: 20px;    line-height: 1.2em;    font-weight: 900;    letter-spacing: 1px;    color: #fff;    font-weight: bold;    padding-top: 15px;}
+        .video_box {padding-top: 6em;    height: 29em !important;}
+        .main h2 {    font-family: 'Merienda One', cursive;margin: 0;    padding-bottom: 6px;    font-size: 20px;    line-height: 1.2em;    font-weight: 900;    letter-spacing: 1px;    color: #fff;    font-weight: bold;    padding-top: 120px;}
         .main h3 {    font-family: 'Merienda One', cursive;margin: 0;    font-size: 18px;    line-height: 1.2em;    font-weight: 900;    letter-spacing: 1px;    color: #BA671A;    font-weight: bold;}
         .button-click {    transition: 0.8s;    padding: 10px 5px;    border: 1px solid #e31e24;    background-color: #e31e24;    font-size: 12px;    font-family: 'Merienda One';cursor: pointer;/* margin: 10px; */color: #fff;margin-top: 0px;}
         .button-click:hover{    transition: 0.8s;    padding: 10px 5px;    border: 1px solid #e31e24;    background-color: #fff;    font-size: 12px;    font-family: 'Merienda One';cursor: pointer;/* margin: 10px; */color: #e31e24;margin-top: -9px;}
+        #myVideo {display: none;}
+        .main {    position: relative;    background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1610035460/Pearry/header_jnwtde.webp);padding: 0px 0 0px;    background-size: cover;    background-position: center;}
         /*banner end*/
 
         /*welcome start*/
         section.ice-cream-block {padding: 23px 0;    background: url(../images/offer_bg.webp);}
         .ice-cream-block h3 {font-size: 40px;    line-height: 36px;}
         .col-md-4.col-sm-4.col-xs-12.text-center.iceimg1 {padding: 20px;}
-        .exp-now {    padding: 8px 11px;    font-size: 15px;}
+        .exp-now {    padding: 8px 11px;    font-size: 12px;}
         .exp-now:hover{    padding: 0px 11px;    font-size: 15px;}
         .middle {opacity: 1;}
         .text {    font-size: 24px;} 
@@ -212,15 +209,25 @@
         .franchise-section img {margin-top: -91px;height: 127px;    padding-left: 135px;}
         .franchise-section {padding: 25px 0 0 0;}
         .slider-title h2 {font-size: 30px;    padding-top: 75px;}
+        .deal-image-sec img {display: none;}
+        .deal-heading {display: none;}
         /*fran end*/
 
         /*slider start*/
         .owl-item{width: auto !important;}
         .item figure img {height: 12em;    width: 10em !important;}
         img.chappn-bhog {    height: 8em !important;margin-top: 4.5em;}
-        img.matka {    height: 15.2em !important;    margin-top: -1.5em !important;}
+        img.matka {    height: 13.2em !important;    margin-top: 3.2em !important;}
+        img.newimage {    height: 12em !important;margin-top: 4.5em;}
+        img.chocho-slider-img {height: 6em !important; margin-top: 10em;}
+        .chochoimage{margin-top: 4em;}
+        .gulkand-slider {    height: 10em !important;margin-top: 6em;}
+        .ima{margin-top: 3em}
+        .blockice {    height: 9em !important;    margin-top: 4em !important;}
         /*slider end*/
-    /*Index Page ends*/
+
+
+        /*Index Page ends*/
 
     /*subcategory starts*/
     .product-main h2 {font-size: 40px;}
@@ -293,6 +300,17 @@
     
     /*sub category end*/
 
+
+
+
+
+
+
+
+
+    /*extras*/
+    .iceboxrow0 {    padding: 0px 0;}
+    .category-main { position: relative;    background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1610035476/Pearry/close-up-colorful-balls-from-freshly-prepared-homemade-ice-cream_70626-11588_obnzeo.jpg);}
 }
 
 
