@@ -4,7 +4,7 @@ $(document).ready(function(){
         loop:true,
         margin:30,
         nav:false,
-        autoplay: true,
+        autoplay: false,
 
         slideTransition: 'linear',
         autoplayTimeout:2200,
