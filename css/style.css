@@ -167,7 +167,7 @@
     .ice-1 img {border-radius: 50%;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
     .ice-2 img {border-radius: 50%;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
     .ice-3 img {border-radius: 50%;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
-    section.ice-cream-block {padding: 0px 0; background: url(../images/offer_bg.webp);}
+    section.ice-cream-block {padding: 0px 0; background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1609995356/Pearry/offer_bg_fgqkb4.webp);}
     .ice-desc{padding: 20px 0;}
 /*ICE-CREAM SECTION END*/
 
