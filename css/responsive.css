@@ -131,7 +131,7 @@
     .contact-box-inner p {font-size: 14px;}
     .divider {    background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1609995094/Pearry/divide_axqpu5.png);height: 16px;    margin-top: -11px;    position: relative;}
     .contact_video{  height: 14em !important;}
-    .contactpage-banner img {margin-left: 5em;}
+    .contactpage-banner img {margin-left: 2em;}
     /*Contact Page End*/
 
 
@@ -310,7 +310,7 @@
     .ice-cream-candy  img{height: 16em;}
     .ice-cream-block-candy h2 {font-size: 31px;color: #000;font-family: 'Signika Negative'; text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;}
     .image-product.badam.img-product-block-pista.chppnn {margin-top: 9em;}
-    
+
 
     .ice-h3-mava  h3{line-height: 49px;font-size: 34px;padding: 29px 0;}
     .ice-h3-mava  p{font-size: 26px;}
@@ -335,8 +335,8 @@
     /*extras*/
     .iceboxrow0 {    padding: 0px 0;}
     .category-main { position: relative;    background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1610035476/Pearry/close-up-colorful-balls-from-freshly-prepared-homemade-ice-cream_70626-11588_obnzeo.jpg);}
-    .contactpage-banner .left-img { padding-left: 0em; }
-    .contactpage-banner img {height: 20em;padding-left: 0em; padding-bottom: 1em}
+    .contactpage-banner .left-img { padding-left: 0em; margin-left: 2em !important}
+    .contactpage-banner img {height: 25em;padding-left: 0em; padding-bottom: 1em}
     .contactpage-banner h2 {font-size: 40px; padding-bottom:10px; padding-left: 0}
     .contactpage-banner {padding: 4em 0;    background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1610099667/Pearry/Pngtree_ice_cream_fruit_plant_green_914223_mwutjb.jpg);background-size: cover;}
     .franpng { margin-top: 0em; margin-left: 0em;}
