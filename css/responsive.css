@@ -78,6 +78,7 @@
 }
 
 @media only screen and (max-width: 767px){
+    .text-cat {    font-size: 35px;    display: block;}
     .logo{height: 64px;}
     .header-menu li{float: left;width: 100%;padding: 0;}
     .header-menu li{margin-right: 0;margin-bottom: 10px;}
