@@ -68,6 +68,13 @@
     .pppp span{font-size: 14px;}
     .video_box2 {right: 0px;min-width: 100%;width: auto;height: 31em !important;z-index: -100;background-size: cover;overflow: hidden;}
     .deal-image-sec img {height: 23em;    padding-left: 6em;}
+    .contactpage-banner .left-img {padding-left: 0em;}
+    .franpng {display: none;}
+    .contactpage-banner img {height: 21em;padding-left: 0em; float: left;}
+    .contactpage-banner h2 {padding-left: 0em; }
+    .contactpage-banner {   padding: 2em 0 4em 0px;    background-position: bottom right;background-size: cover;}
+    .contactpage-banner img {margin-left: 1em;}
+    
 }
 
 @media only screen and (max-width: 767px){
@@ -191,7 +198,7 @@
         /*all scoop*/
         .iceboxrow0 h2 {font-size: 40px;    font-family: 'Fredericka the Great';font-weight: normal;line-height: 42px;    padding-top: 33px;}
         .iceboxrow0 h3 {font-size: 33px;    font-family: 'Satisfy';    line-height: 52px;}
-        .all-scoop {background-size: inherit;padding: 0px 0;}
+        .all-scoop {    background-size: inherit;padding: 0px 0;    background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1609995277/Pearry/hd-11_tmnpqr.jpg);}
         .iceboxrow1 {padding: 0px 20px 0 20px; }
         .icebox {    margin-bottom: 30px;}
         .ice-text a {    font-size: 20px;}
@@ -311,6 +318,11 @@
     /*extras*/
     .iceboxrow0 {    padding: 0px 0;}
     .category-main { position: relative;    background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1610035476/Pearry/close-up-colorful-balls-from-freshly-prepared-homemade-ice-cream_70626-11588_obnzeo.jpg);}
+    .contactpage-banner .left-img { padding-left: 0em; }
+    .contactpage-banner img {height: 20em;padding-left: 0em; padding-bottom: 1em}
+    .contactpage-banner h2 {font-size: 40px; padding-bottom:10px; padding-left: 0}
+    .contactpage-banner {padding: 4em 0;    background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1610099667/Pearry/Pngtree_ice_cream_fruit_plant_green_914223_mwutjb.jpg);background-size: cover;}
+    .franpng { margin-top: 0em; margin-left: 0em;}
 }
 
 

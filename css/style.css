@@ -191,7 +191,7 @@
     .iceboxrow0 h3 {    font-size: 50px;    font-family: 'Satisfy';    line-height: 52px;}
     .iceboxrow0 h2 {    font-size: 74px;    font-family: 'Fredericka the Great';    font-weight: normal;    line-height: 68px;}
     .iceboxrow0{padding: 40px 0;}
-    .all-scoop{background: url("https://res.cloudinary.com/dduamjzns/image/upload/v1609995277/Pearry/hd-11_tmnpqr.jpg"); background-size: cover; padding: 50px 0 80px 0;}
+    .all-scoop{background: url("https://res.cloudinary.com/dduamjzns/image/upload/v1610093968/Pearry/Pngtree_healthy_fresh_white_ice_cream_1038800_hgvock.jpg"); background-size: cover; padding: 50px 0 80px 0;}
     .ice-text {  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;  font-size: 20px;    font-family: 'Merienda One';color: #e31e24;}
     .icebox{position: relative;}
     .imageice {     background: antiquewhite; opacity: 1;  display: block;  width: 100%;  height: auto;  transition: .5s ease;  backface-visibility: hidden;}
@@ -202,12 +202,13 @@
     .ice-text {  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;  font-size: 20px;    font-family: 'Merienda One';color: #e31e24;}
     .iceboxrow1{padding-left:40px; padding-bottom: 30px;}
     .iceboxlast{    background: bisque;}
+    .img-all-scoop{    margin-top: 5em;}
 /*All Scoop End*/
 
 /*SLIDER START HERE*/
     img.matka {height: 19.2em !important;}
     img.chappn-bhog {height: 10em !important;margin-top: 8.5em;}
-    .slider-title h2{font-size: 57px;padding-top: 75px;}
+    .slider-title h2{font-size: 57px;padding-top: 75px;     padding-bottom: 30px;}
     .banner{padding: 20px 0; background:linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 44%, rgba(255,192,0,1) 69%, rgba(255,192,0,1) 84%, rgba(255,192,0,1) 100%) }
     .item{padding: 50px 0}
     .item figure img{height: 18em; width: auto !important; transition: transform .4s; -webkit-transition: all 0.4s ease-in-out;}
@@ -217,6 +218,8 @@
     .newimage {     margin-top: -3em;   height: 20em !important;}
     .blockice{    height: 14em !important; margin-top: 2em;}
     .mat-slide{    margin-top: 1em !important;}
+    img.brickslider {  height: 9em !important;margin-top: 5.8em;}
+    .ice-desc-slider h2 { text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;   font-size: 25px;    font-family: 'Signika Negative';padding-top: 11px; color: #000}
 /*SLIDER ENDS HERE*/
 
 /*FRANCHISEES STARTS*/
@@ -230,7 +233,7 @@
     .mob-fran-section{display: none;}
     .contact-box-inner1 p {font-size: 20px;    color: #4e4e54;    padding: 1px;    font-family: 'Merienda One';    padding-left: 21px;}
     .contact-box-inner1 p i {    padding-right: 15px;}
-    .deal-image-sec img{ height:45em; padding-left: 4em;}
+    .deal-image-sec img {height: 37em;    padding-left: 4em;    margin-top: 6em;}
     .deal-heading{padding-top: 2em}
 /*FRANCHISEES ENDS*/
 
@@ -281,18 +284,13 @@
     .contact-buttonc:hover {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #db3490;    background-color: #fff;    font-size: 20px;    font-family: 'Signika Negative', sans-serif;cursor: pointer;       color: #e31e24;   }
     /*form section end*/
 
-
-    /*subscribe section start*/
-    .subscribe-sec{   /* background: #f35564;*/padding: 50px 0; background:url("https://res.cloudinary.com/dduamjzns/image/upload/v1609995049/Pearry/b_qnqesw.jpg");  background-size: cover;}
-    .subscribe-sec .subs-col img {height: 50px;}
-    .subs-col p {    padding-left: 60px;    margin-top: -14px;    font-size: 22px;    padding-top: 7px;    color: #e31e24;    font-family: 'Merienda One';}
-    .subs-col h4 {   padding-left: 60px;    margin-top: -41px;    font-size: 30px;font-family: 'Merienda One';}
-    .subscribe-sec form {padding-top: 17px;}
-    .subs-col2 img{padding: 12px 0}
-    .subs-col{    padding-top: 40px;}
-    .subs-button{margin-top: 45px;    transition: 0.8s;    padding: 12px 20px;    border: 1px solid #e31e24;    background-color: #e31e24;font-size: 20px;    font-family: 'Signika Negative', sans-serif;cursor: pointer;     color: #fff;    }
-    .subs-button:hover {    transition: 0.8s;    padding: 12px 20px;    border: 1px solid #db3490;    background-color: #fff;    font-size: 20px;    font-family: 'Signika Negative', sans-serif;cursor: pointer;       color: #db3490;   box-shadow: 0 0 10px #e31e24, 0 0 10px #e31e24, 0 0 5px #e31e24;}
-    /*subscribe section ends*/
+    /*fran start*/
+    .contactpage-banner img {height: 32em;    border-radius: 15px; padding-left: 1em}
+    .contactpage-banner{ padding:4em 0; background:url("https://res.cloudinary.com/dduamjzns/image/upload/v1610099398/Pearry/Pngtree_cartoon_minimalist_pink_summer_cool_1096593_ldsny8.jpg"); box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.2);}
+    .contactpage-banner h2{padding-left: 1em; font-weight: normal; font-size: 50px;padding-bottom:10px; font-family: 'Fredericka the Great'; }
+    .contactpage-banner .left-img{padding-left: 6em}
+    .franpng{    height: 29em;margin-top: 6em;margin-left: 10em;}
+    /*fran end*/
 
 
 /*CONTACT US PAGE ENDS HER*/
@@ -334,7 +332,7 @@
     .ice-1-cat img {  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
     .ice-2-cat img { -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
     .ice-3-cat img { -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
-    section.ice-cream-block-cat {padding: 70px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
+    section.ice-cream-block-cat {padding: 40px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
     .ice-desc-cat{padding: 20px 0;}
     .ice-h3-cat p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
     .divideropp{    background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1609995094/Pearry/divideopp_vv3hfi.png);height: 32px;margin-top: -17px;position: absolute;}
@@ -442,7 +440,6 @@
             .ice-h3-mangovanilla h3{line-height: 70px; font-family: 'Satisfy', cursive;   font-size: 50px;     padding: 50px 0;     color: #e31e24;}
             .ice-h3-mangovanilla p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
             .ice-cream-block-mangovanilla  h2{text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; font-family: 'Signika Negative', sans-serif;  font-size: 30px;     padding-bottom: 30px;     color: #000;} 
-            .ice-cream-mangovanilla :hover{transform-style: preserve-3d;transform: scale(1.15);transition: all ease 0.5s;}
             .ice-cream-mangovanilla img{height: 22em;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
            .ice-cream-block-mangovanilla  {padding: 70px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
             .ice-desc-mangovanilla {padding: 20px 0;}
