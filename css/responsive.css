@@ -5,12 +5,12 @@
     .ice-block-3 img {height: 18em;}
     .h3-ban {    color: #6f1f0a !important;    padding-bottom: 0px;}
     .all-scoop {padding: 0px 0;}
-    .contact-content-banner {position: absolute;top: 32%;}
+    /*.contact-content-banner {position: absolute;top: 32%;}
     .contactpage-banner img {height: 23em;    border-radius: 15px;    padding-left: 1em;}
     .contactpage-banner .left-img {padding-left: 5em;}
     .order-content-banner {position: absolute;top: 18%;    left: 65%;}
     .container.cat-banner-content {position: absolute;    top: 44% !important;    margin-left: 54px;}
-}
+*/}
 
 @media only screen and (max-width: 992px){
     .logo{width: 120px;}
@@ -193,7 +193,7 @@
         /*banner end*/
 
         /*welcome start*/
-        section.ice-cream-block {padding: 23px 0;    background: url(../images/offer_bg.webp);}
+        section.ice-cream-block {padding: 23px 0;    background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1609995356/Pearry/offer_bg_fgqkb4.webp);}
         .ice-cream-block h3 {font-size: 40px;    line-height: 36px;}
         .col-md-4.col-sm-4.col-xs-12.text-center.iceimg1 {padding: 20px;}
         .exp-now {    padding: 8px 11px;    font-size: 12px;}
