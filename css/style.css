@@ -84,7 +84,7 @@
     .search-input{background-color: #fdc632;}
     .search-field{display: flex;flex-wrap: wrap;padding: 10px 0;}
     .logo{color: #002347;float: left;height: 80px;width: 183px;font-size: 40px;line-height: 66px;position: relative;}
-    .logo img{width: 143px;height: 80px;}
+    .logo img{width: 163px;height: 90px;}
     .logo span{float: left;font-size: 16px;line-height: 20px;color: #fff;width: 100%;margin-left: 20px;}
     .serivces-link{top: 73px !important;right: -80px !important;border: none !important;padding: 10px 0;border-radius: 0;}
     .serivces-link li{margin-right: 0;width: 100%;margin-bottom: 10px;padding: 0;}
@@ -92,7 +92,7 @@
     .serivces-link li a{line-height: 20px;}
     .dropdown i{margin-left: 6px;font-size: 12px;}
     .search-here{margin-top: 10px;}
-    .fixed-header{background-color: #ffffff;padding: 6px 20px;box-shadow: 0px 0px 3px rgba(68, 68, 68, 0.6);}
+    .fixed-header{background-color: #ffffff;padding: 17px 20px;box-shadow: 0px 0px 3px rgba(68, 68, 68, 0.6);}
     .fixed-header .header-menu li a{color: #e31e24;}
     .dropdown-menu{padding: 0 !important;}
     .dropdown-menu li a{color: #000;padding: 0;margin: 0;}
@@ -210,7 +210,7 @@
     img.chappn-bhog {height: 10em !important;margin-top: 8.5em;}
     .slider-title h2{font-size: 57px;padding-top: 75px;     padding-bottom: 30px;}
     .banner{padding: 20px 0; background:linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 44%, rgba(255,192,0,1) 69%, rgba(255,192,0,1) 84%, rgba(255,192,0,1) 100%) }
-    .item{padding: 50px 0}
+    .item{padding: 80px 0}
     .item figure img{height: 18em; width: auto !important; transition: transform .4s; -webkit-transition: all 0.4s ease-in-out;}
     .item figure img:hover{transform: scale(1.2);transform-origin: 50% 50%;}
     .gulkand-slider {    height: 13em !important;margin-top: 5em;}
