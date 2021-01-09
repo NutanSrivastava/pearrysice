@@ -312,7 +312,7 @@
         .category-button-click {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #e31e24;    background-color:#e31e24;font-size: 20px;      font-family: 'Merienda One', cursive; cursor: pointer;      color: #fff;    }
         .category-button-click:hover {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #e31e24;    background-color: #fff;    font-size: 20px;      font-family: 'Merienda One', cursive; cursor: pointer;     color:#e31e24   }
         .container.cat-banner-content {position: absolute;    top: 50% !important;    margin-left: 54px;}
-        .divider-category{background:url("https://res.cloudinary.com/dduamjzns/image/upload/v1609995094/Pearry/divide_axqpu5.png"); height: 23px; margin-top: -14px;     position: relative;}
+        .divider-category{background:url("https://res.cloudinary.com/dduamjzns/image/upload/v1609995094/Pearry/divide_axqpu5.png"); height: 15px; margin-top: -15px;     position: relative;}
     
     /*Category Banner Ends Here*/
 
