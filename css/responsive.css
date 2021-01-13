@@ -83,6 +83,8 @@
 }
 
 @media only screen and (max-width: 767px){
+    .slider-title {display: none;}
+    .banner {display: none;}
     .text-cat {    font-size: 35px;    display: block;}
     .logo{height: 64px;}
     .header-menu li{float: left;width: 100%;padding: 0;}
@@ -221,7 +223,7 @@
         .contact-box-inner1 h2 {font-size: 11px;padding: 5px;line-height: 22px;}
         .contact-box-inner1 p {font-size: 10px;padding-left: 10px;}
         .franchise-section img {margin-top: -91px;height: 127px;    padding-left: 135px;}
-        .franchise-section {padding: 25px 0 0 0;}
+        .franchise-section {padding: 25px 0 35px 0;}
         .slider-title h2 {font-size: 30px;    padding-top: 75px;}
         .deal-image-sec img {display: none;}
         .deal-heading {display: none;}
