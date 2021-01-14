@@ -5,12 +5,7 @@
     .ice-block-3 img {height: 18em;}
     .h3-ban {    color: #6f1f0a !important;    padding-bottom: 0px;}
     .all-scoop {padding: 0px 0;}
-    /*.contact-content-banner {position: absolute;top: 32%;}
-    .contactpage-banner img {height: 23em;    border-radius: 15px;    padding-left: 1em;}
-    .contactpage-banner .left-img {padding-left: 5em;}
-    .order-content-banner {position: absolute;top: 18%;    left: 65%;}
-    .container.cat-banner-content {position: absolute;    top: 44% !important;    margin-left: 54px;}
-*/}
+}
 
 @media only screen and (max-width: 992px){
     .logo{width: 120px;}
