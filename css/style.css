@@ -137,7 +137,7 @@
 /*FOOTER CSS START*/
     a.contact span {font-size: 15px;}
     .ppp p{color: #fff !important}
-    .footer{background-size: cover; /*background-color: #ffc000;*/  padding-bottom: 60px; background:url("https://res.cloudinary.com/dduamjzns/image/upload/v1610621618/Pearry/compressed/bg1-compressed_1_fwzbxz.jpg");  font-family: 'Merienda One';}
+    .footer{background-size: cover; /*background-color: #ffc000;*/  padding-bottom: 60px; background:url("../images/prod/bg1-compressed (1).jpg");  font-family: 'Merienda One';}
     .footer .form-group{margin-bottom: 0;}
     /*.footer .container{background:url("../images/offer_bg.webp"); background-size: cover;     height: 371px;}*/
     .footer-nav .logo{margin-bottom: 20px;}
@@ -148,9 +148,9 @@
     .footer-bottom{  font-family: 'Merienda One';   background: #f2b218; padding: 20px 0;text-align: center;}
     .copyright{font-size: 18px;color:#fff;}
     .form-group.footer-form img {height: 35px;    padding-right: 6px;}
-    .footercol1 {background: url("https://res.cloudinary.com/dduamjzns/image/upload/v1609995351/Pearry/shape_fybjd6.png");background-size: cover;min-height: 30em;padding: 33px;}
+    .footercol1 {background: url("../images/prod/shape.png");background-size: cover;min-height: 30em;padding: 33px;}
     .footer-nav .logo{text-align: -webkit-center;}
-    i.footer-i {    line-height: 45px;    text-align: center;    width: 50px;    font-size: 23px;    height: 50px;    background: url("https://res.cloudinary.com/dduamjzns/image/upload/v1609995353/Pearry/shape1_ykekks.png");display: inline-block;color: #b02b2b;}
+    i.footer-i {    line-height: 45px;    text-align: center;    width: 50px;    font-size: 23px;    height: 50px;    background: url("../images/prod/shape1.png");display: inline-block;color: #b02b2b;}
     .full-width.footer-nav {    padding-bottom: 30px;}
 /*FOOTER CSS END*/
 
@@ -191,7 +191,7 @@
     .iceboxrow0 h3 {    font-size: 50px;    font-family: 'Satisfy';    line-height: 52px;}
     .iceboxrow0 h2 {    font-size: 74px;    font-family: 'Fredericka the Great';    font-weight: normal;    line-height: 68px;}
     .iceboxrow0{padding: 40px 0;}
-    .all-scoop{background: url("https://res.cloudinary.com/dduamjzns/image/upload/v1610619071/Pearry/compressed/Pngtree_healthy_fresh_white_ice_cream_1038800_hgvock-compressed_vp1mq2.jpg"); background-size: cover; padding: 50px 0 80px 0;}
+    .all-scoop{background: url("../images/prod/Pngtree_healthy_fresh_white_ice_cream_1038800_hgvock-compressed.jpg"); background-size: cover; padding: 50px 0 80px 0;}
     .ice-text {  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;  font-size: 20px;    font-family: 'Merienda One';color: #e31e24;}
     .icebox{position: relative;}
     .imageice {     background: antiquewhite; opacity: 1;  display: block;  width: 100%;  height: auto;  transition: .5s ease;  backface-visibility: hidden;}
@@ -223,7 +223,7 @@
 /*SLIDER ENDS HERE*/
 
 /*FRANCHISEES STARTS*/
-    .franchise-section{padding: 60px 0; background:url("https://res.cloudinary.com/dduamjzns/image/upload/v1610621102/Pearry/compressed/back-compressed_hmijm8.jpg");} 
+    .franchise-section{padding: 60px 0; background:url("../images/prod/back-compressed.jpg");} 
     .franchise-section h3{font-size: 35px;    font-family: 'Fredericka the Great';font-weight: 600;padding: 11px 0;padding-left: 15px;}
     .contact-box-inner1 {  background:#fff;  border: 1px solid #e31e24;min-height: 300px;}
     .contact-box-inner1 h2 {    padding-top: 70px;}
@@ -258,7 +258,7 @@
     /*Contact Banner ends Here*/
 
     /*contact box start*/
-    section.contact-sec {    padding: 80px 0;    background: url("https://res.cloudinary.com/dduamjzns/image/upload/v1610621992/Pearry/compressed/contact-3-compressed_3_vycfae.jpg");    background-attachment: fixed;background-size: cover;}
+    section.contact-sec {    padding: 80px 0;    background: url("https://res.cloudinary.com/dduamjzns/image/upload/v1609995365/Pearry/contact-3_zpvzvv.jpg");    background-attachment: fixed;background-size: cover;}
     .contact-box-inner {    border: 1px solid #e31e24;min-height: 242px;}
     .contact-box-inner h2 {    padding-top: 70px;}
     .contact-box {    background: rgba(255,255,255,0.75);padding: 25px;}
