@@ -167,7 +167,7 @@
     .ice-1 img {border-radius: 50%;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
     .ice-2 img {border-radius: 50%;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
     .ice-3 img {border-radius: 50%;  -webkit-transition: all 0.4s ease-in-out;   backface-visibility: hidden;}
-    section.ice-cream-block {padding: 0px 0; background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1609995356/Pearry/offer_bg_fgqkb4.webp);}
+    section.ice-cream-block {padding: 0px 0; background: url(../images/prod/offer_bg.webp);}
     .ice-desc{padding: 20px 0;}
 /*ICE-CREAM SECTION END*/
 
@@ -263,7 +263,7 @@
     .contact-box-inner h2 {    padding-top: 70px;}
     .contact-box {    background: rgba(255,255,255,0.75);padding: 25px;}
     .contact-box-inner h2 {    font-family: 'Merienda One';    color: #e31e24;font-size: 34px;padding-bottom: 10px;}
-    .divider{background:url("https://res.cloudinary.com/dduamjzns/image/upload/v1609995094/Pearry/divide_axqpu5.png"); height: 23px; margin-top: -15px;     position: relative;}
+    .divider{background:url("../images/prod/divide.png"); height: 23px; margin-top: -15px;     position: relative;}
     h2.contacthead {    padding-bottom: 55px;    font-family: 'Merienda One';color: #e31e24;font-size: 45px;}
     .contact-box:hover {  box-shadow: 0 0 10px #e31e24, 0 0 10px #e31e24, 0 0 5px #e31e24;}
     /*contact box end*/
@@ -312,7 +312,7 @@
         .category-button-click {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #e31e24;    background-color:#e31e24;font-size: 20px;      font-family: 'Merienda One', cursive; cursor: pointer;      color: #fff;    }
         .category-button-click:hover {    transition: 0.8s;    padding: 15px 20px;    border: 1px solid #e31e24;    background-color: #fff;    font-size: 20px;      font-family: 'Merienda One', cursive; cursor: pointer;     color:#e31e24   }
         .container.cat-banner-content {position: absolute;    top: 50% !important;    margin-left: 54px;}
-        .divider-category{background:url("https://res.cloudinary.com/dduamjzns/image/upload/v1609995094/Pearry/divide_axqpu5.png"); height: 15px; margin-top: -15px;     position: relative;}
+        .divider-category{background:url("../images/prod/divide.png"); height: 15px; margin-top: -15px;     position: relative;}
     
     /*Category Banner Ends Here*/
 
@@ -335,7 +335,7 @@
     section.ice-cream-block-cat {padding: 40px 0;     background: linear-gradient(180deg, rgba(255,192,0,1) 0%, rgba(255,192,0,1) 77%, rgba(255,192,0,1) 89%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);}
     .ice-desc-cat{padding: 20px 0;}
     .ice-h3-cat p{font-family: 'Satisfy', cursive;  font-size: 35px;  padding-bottom: 50px; color: #444340;  padding-top: 5px;line-height: 50px;}
-    .divideropp{    background: url(https://res.cloudinary.com/dduamjzns/image/upload/v1609995094/Pearry/divideopp_vv3hfi.png);height: 32px;margin-top: -17px;position: absolute;}
+    .divideropp{    background: url(../images/prod/divideopp.png);height: 32px;margin-top: -17px;position: absolute;}
     .exp-now-cat {    transition: 0.8s;    padding: 0px 4px;    border: 1px solid #e31e24;    background-color: #e31e24;font-size: 15px;     font-family: 'Merienda One'; cursor: pointer;    margin: 10px;    color: #fff;  }
     .exp-now-cat:hover {    transition: 0.8s; background-color: #fff;    font-size: 15px;  border:none;      font-family: 'Merienda One'; cursor: pointer;    margin: 10px;    color: #e31e24;  }
     .ice-cone {    background: cornsilk;}
@@ -383,7 +383,7 @@
 /*PRODUCT CATEGORY BANNER STARTS HERE*/
     
         /*Product Banner Starts Here*/
-            .product-main{ background: url("https://res.cloudinary.com/dduamjzns/image/upload/v1610621841/Pearry/compressed/banner_bg-compressed_d5eby8.jpg") ; padding: 288px 0 100px; background-size: cover; background-position: bottom;}
+            .product-main{ background: url("../images/prod/subbanner.jpg") ; padding: 288px 0 100px; background-size: cover; background-position: bottom;}
             .product-main h2{ padding-bottom: 3px; font-size: 59px; line-height: 1.2em; font-weight: 900; letter-spacing: 1px;  color: #fff; font-weight: bold;}
             .product-main h3{font-family: 'Merienda One', cursive; margin: 0; font-size: 50px; line-height: 1.2em; font-weight: 900; letter-spacing: 1px;  color: #BA671A;  font-weight: bold;}
             .product-main h3 span{color: #e31e24;}
